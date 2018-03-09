@@ -1,9 +1,9 @@
 {
-  "name": "@kathan/send-file",
-  "version": "0.1.2",
-  "description": "A Javascript module that simplifies sending files over HTTP ports.",
+  "name": "send-it",
+  "version": "0.0.1",
+  "description": "A Javascript module that simplifies sending files and data over HTTP.",
   "license": "MIT",
-  "homepage": "https://github.com/kathan/send-file/",
+  "homepage": "https://github.com/kathan/send-it/",
   "keywords": [
     "javascript",
     "node",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/kathan/send-file.git"
+    "url": "git://github.com/kathan/send-it.git"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -30,7 +30,7 @@
     "form-data": "*"
   },
   "bugs": {
-    "url": "https://github.com/kathan/send-file/issues"
+    "url": "https://github.com/kathan/send-it/issues"
   },
   "main": "./index.js"
 }

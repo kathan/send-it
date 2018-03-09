@@ -1,9 +1,22 @@
-/*
-send-file
-*/
-
-const FormData = require('form-data');
+/*******************************************
+* send-it
+* Copyright (c) 2018, Darrel Kathan 
+* Licensed under the MIT license.
+*
+* A current version and some documentation is available at
+*    https://github.com/kathan/send-it
+*
+* @summary     Javascript CGI process manager
+* @description send-it A Javascript module that simplifies sending files and data over HTTP..
+* @file        send-it
+* @version     0.0.1
+* @author      Darrel Kathan
+* @license     MIT
+*******************************************/
 const fs = require('fs');
+//=== Dependencies ====
+const FormData = require('form-data');
+
 const sendFile = function(url, files, data, callback){
   if(typeof data === 'function'){
     callback = data;
